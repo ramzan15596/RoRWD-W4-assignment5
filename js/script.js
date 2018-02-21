@@ -13,16 +13,16 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/home-snippet.html";
+var homeHtmlUrl = "snippets/home-snippet.html";
 
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/categories-title-snippet.html";
-var categoryHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/category-snippet.html";
+var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/menu-items-title.html";
-var menuItemHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/menu-item.html";
+var menuItemsTitleHtml = "snippets/menu-items-title.html";
+var menuItemHtml = "snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -126,7 +126,7 @@ function buildAndShowHomeHTML (categories) {
       // ....
 
     },
-    false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
+    ); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
 
 
