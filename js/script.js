@@ -17,12 +17,12 @@ var homeHtmlUrl = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/
 
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-var categoryHtml = "snippets/category-snippet.html";
+var categoriesTitleHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/categories-title-snippet.html";
+var categoryHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "snippets/menu-items-title.html";
-var menuItemHtml = "snippets/menu-item.html";
+var menuItemsTitleHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/menu-items-title.html";
+var menuItemHtml = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
