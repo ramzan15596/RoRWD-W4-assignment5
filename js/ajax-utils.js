@@ -51,8 +51,7 @@ function handleResponse(request,
 
     if (isJsonResponse) {
       responseHandler(JSON.parse(request.responseText));
-    }
-    else {
+    }else {
       responseHandler(request.responseText);
     }
   }
