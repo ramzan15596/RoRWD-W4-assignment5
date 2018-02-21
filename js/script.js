@@ -13,7 +13,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "snippets/home-snippet.html";
+var homeHtmlUrl = "https://ramzan15596.github.io/RoRWD-W5-assignment5.github.io/snippets/home-snippet.html";
 
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
